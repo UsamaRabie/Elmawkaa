@@ -1,0 +1,360 @@
+/* style for all website */
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+/* styling nav bar */
+.myNav{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        width: 100%;
+}
+/* style text in website */
+.txt{
+    color: white;
+}
+
+/* when i hover the text */
+.txt:hover{
+    color: gray;
+}
+
+/* edit bootstrap nav style */
+.mynavStyle{
+ 
+    flex-direction: row-reverse !important;
+}
+
+/* styling the logo  */
+.logo{
+    max-width: 100px;
+    cursor: pointer;
+}
+
+/* styling icons */
+.fa-user{
+    color: white;
+}
+
+
+/* styling buttons */
+.myButton {
+    background: #3DF649;
+   
+
+    border-radius: 20px;
+    color: #FFFFFF;
+   
+    
+    font-weight: 100;
+  
+   
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* style the drop button */
+.dropbtn {
+    background-color: #dfe6e3;
+    color: white;
+    
+   
+  
+}
+
+/* style the dropdown content */
+.dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #d0dbd0;
+   min-width: 200px;
+}
+
+.block{
+    display: block;
+}
+/* links in drop down or options */
+.dropdown-content a {
+    color: black;
+  
+    text-decoration: none;
+    display: block;
+}
+/* hovering dropdown */
+.dropdown-content a:hover {
+    background-color: #ebf2eb;
+}
+
+
+/* flags */
+.sudia , .egypt{
+    max-width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* styling left ide of nav bar */
+.left-nav{
+    margin-left: 10%;
+}
+/* back ground of the website */
+.background{
+    background-image: url("images/home-bg.jpg");
+    background-size: cover;
+    background-position: 35% 0%;
+    height: 700px;
+    
+}
+
+/* title of the section */
+.title{
+    
+    padding-top: 450px;
+    text-align: center;
+    color: rgb(240, 233, 233);
+    font-weight: 900;
+}
+
+.sale{
+    text-align: center;
+        color: rgb(240, 233, 233);
+        font-weight: 900;
+       
+}
+
+/* edit style bootstrap buttons */
+.bg-info{
+   background-color:  #6f4584 !important;
+   color: white;
+}
+/* edit style bootstrap buttons hover */
+.bg-info:hover 
+{
+    cursor: pointer;
+    background-color: #8b4eaa !important;
+}
+
+/* style card 1 */
+.card1{
+    background-image: url("images/1.jpg");
+        background-size: cover;
+   
+        min-height: 450px;
+}
+/* style card 2 */
+.card2{
+    background-image: url("images/2.jpg");
+        background-size: cover;
+        min-height: 450px;
+}
+/* style card 3 */
+.card3 {
+    background-image: url("images/3.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+.card4 {
+    background-image: url("images/4.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+/* style card 5 */
+.card5 {
+    background-image: url("images/5.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 6 */
+.card6 {
+    background-image: url("images/6.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+/* style card 7 */
+.card7 {
+    background-image: url("images/7.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+/* style card 8 */
+.card8 {
+    background-image: url("images/8.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 9 */
+.card9 {
+    background-image: url("images/9.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 10 */
+.card10 {
+    background-image: url("images/10.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 11 */
+.card11 {
+    background-image: url("images/11.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 12 */
+.card12 {
+    background-image: url("images/12.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 13 */
+.card13 {
+    background-image: url("images/13.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style card 14 */
+.card14 {
+    background-image: url("images/14.jpg");
+    background-size: cover;
+    min-height: 450px;
+}
+
+/* style all cards  */
+.card{
+    margin-bottom: 30%;
+        background-position: center;
+}
+/* style all cards hover*/
+.card:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+
+}
+.card-title{
+    border-top: #6f4584 2px solid;
+   
+}
+/* style options  detailes*/
+.detailes{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: inline !important;
+    position: relative;
+        top: 300px;
+        margin-left: 2%;
+        padding: 2px;
+}
+
+/* style the top footer */
+.topFooter {
+    background-color: #6f4584 !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* style the text  footer */
+.textFooter {
+    color: #FF9B17;
+}
+/* style icons */
+.fa-phone , .fa-envelope , .fa-location-dot{
+       
+            font-size: 200%;
+            margin-bottom: 5%;
+}
+
+/* style the bottom footer */
+.thirdFooter{
+   background-color:   #313238 ;
+   padding-top: 20px;
+padding-bottom: 20px;
+}
+/* style icons */
+.fa-brands , .fa-sharp{
+    color: white;
+    margin-right: 10px;
+    padding: 3px;
+}
+/* style icons hover */
+.fa-brands:hover,
+.fa-sharp:hover{
+    color: rgb(163, 157, 157);
+    font-size: 95%;
+    cursor: pointer;
+}
+
+
+
+/* style body form page */
+.body{
+    background-image: url("images/home-bg.jpg");
+    background-size: cover;
+        background-position: 35% 0%;
+   
+}
+
+/* style button form */
+.btn-form{
+    background-color: #6f4584;
+    color: #dfe6e3;
+    padding: 12px;
+    border-radius: 8px;
+    margin-right: 2%;
+}
+
+/* style button form when  disabled*/
+.btn-form:disabled{
+    opacity: 0.2;
+}
+
+/* style main section form */
+.main{
+    margin-top: 7%;
+   
+    
+}
+
+/* background style of form */
+.my-bg{
+    background-color: #d6d7e0;
+    padding-right: 3%;
+    border-radius: 20px;
+}
+
+/* style input form */
+
+input{
+    width: 40%;
+    border-radius: 10px;
+    height: 50px;
+    display: block;
+}
+/* style button complete form */
+.btn-form-comblete{
+    background-color: #4719e1;
+}
+
+/* style the check box */
+.checkbox{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
